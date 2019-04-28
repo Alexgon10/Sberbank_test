@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.sql.DriverManager;
 public class QueryDB {
 
-    private static String url = "jdbc:postgresql://localhost:5432/mybd";
+    private static String url = "jdbc:postgresql://localhost:5432/bd";
     private static String username = "postgres";
-    private static String password = "1111";
+    private static String password = "password";
 
     public static ArrayList<Person> select() {
         ArrayList<Person> persons = new ArrayList<>();
